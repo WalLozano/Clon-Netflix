@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&display=swap')
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    
+
+body
+    font-family: 'Noto Sans', sans-serif
+    background: black
+    overflow-x: hidden 
+
+.superior
+    width: 95vw
+    display: flex
+    align-items: center
+    justify-content: space-between
+    &_logo
+        width: 150px
+        margin: 1.7em
+
+.usuario
+    display: flex
+
+.idiomas
+    width: 130px
+    height: 35px
+    display: flex
+    justify-content: center
+    align-items: center
+    border: solid 2px
+    border-radius: 4px
+    border-color: #5F5F5F
+    margin-right: 1em
+    background-color: rgba(#000, 0.3)
+
+    &_world
+        width: 18px
+        height: 18px
+        margin-right: 5px
+        filter: invert(100%)
+        margin-left: 10px
+        &_select
+            background: none
+            height: 25px
+            color: white
+            border: none
+            font-size: 18px
+            margin-right: 10px
+            &_div
+                :hover
+                    background: #aa040c
+                    transition: 0.2s
+                &_button
+                    height: 35px
+                    width: 80px
+                    background: #E50914
+                    border: none
+                    border-radius: 4px
+                    color: white
+                    font-size: 15px
+
+.inicio
+    display: flex
+    flex-direction: column
+    gap: 2em
+    color: white
+    align-items: center
+    justify-content: center
+    margin-top: 11.5em
+    
+    &_h1
+        font-size: 30px
+        text-align: center
+        width: 1034px
+        font-weight: 900
+        &_h2
+            font-size: 25px
+            font-weight: 400
+            &_p
+                font-size: 20px
+                &_email
+                    margin-bottom: 10rem
+                    &_input
+                        width: 450px
+                        border-radius: 5px
+                        height: 50px
+                        padding-left: 15px
+                        font-size: 20px
+                        background: rgba(black, 0.5)
+                        border: solid 1.5px #39393D
+                        color: #39393D
+                        &_button
+                            background: #C11119
+                            height: 45px
+                            width: 140px
+                            color: #fff
+                            font-size: 20px
+                            border-radius: 5px
+                            border: none
+
+.principal
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/8f12b4f0-a894-4d5b-9c36-5ba391c63fbe/3424ab9c-4257-46ae-984e-8836329f0ba9/VE-en-20230320-popsignuptwoweeks-perspective_alpha_website_medium.jpg)
+    width: 100vw
+    height: 100vh
+    box-shadow: inset 0 0 200px 130px black
+
+.divcontenido
+    display: flex
+    color: white
+    align-items: center
+    justify-content: center
+    margin: 5%
+
+.titulo
+    font-size: 48px
+    &_contenido
+        width: 500px
+        padding-top: 2em
+        font-size: 24px
+
+.divisor
+    background: #232323
+    height: 10px
+    width: 100%
+
+/* preguntas frecuentes */ 
+#textfaq
+    background: black
+    color: white
+    font-size: 34px
+    text-align: center
+    padding-top: 1em
+/* Div principal*/
+
+div.faq
+    display: flex
+    flex-direction: column
+    margin: 10%
+
+/* Div Secundario */
+div.c
+    
+    :hover
+        background: #4a4a4a
+        transition: 0.2s
+    position: relative
+    margin: 0.3em
+
+/* Checkbox */ 
+.input 
+    position: absolute
+    left: 0
+    top: 0
+    height: 100%
+    width: 100%
+    opacity: 0
+    visibility: 0
+
+/*Pregunta*/
+h1
+    
+    background: #2d2d2d
+    color: white
+    padding: 0.7em
+    position: relative
+    font-size: 24px
+    font-weight: 300
+
+label
+    cursor: pointer
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: space-between
+    height: 50px
+
+/* Contenido*/
+div.p
+    max-height: 0px
+    overflow: hidden
+    transition: max-height 0.5s
+    background-color: #2d2d2d
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2)
+    margin-top: 1px
+
+div.p p
+    padding: 1em
+    color: white
+    font-size: 24px
+
+input:checked ~ h1 ~ div.p
+    max-height: 400px
+
+.faq
+    max-width: 1030px
+    background-color: black
+
+#rotar
+    rotate: 45deg
+
+#rotar:hover
+    rotate: 90deg
+
+    
