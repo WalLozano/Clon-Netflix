@@ -91,6 +91,7 @@ body {
 }
 .inicio_h1_h2_p_email {
   margin-bottom: 10rem;
+  padding: 5%;
 }
 .inicio_h1_h2_p_email_input {
   width: 450px;
@@ -140,6 +141,7 @@ body {
   background: #232323;
   height: 10px;
   width: 100%;
+  margin-top: 11%;
 }
 
 /* preguntas frecuentes */ 
